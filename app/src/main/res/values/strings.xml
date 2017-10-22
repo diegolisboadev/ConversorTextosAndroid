@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Conversor de Textos</string>
+    <!--Aplicação Textos Activity Principal-->
+    <string name="home_name">Escolha abaixo os tipos que você que Convertet</string>
+    <string name="pdf_word">PDF para Word</string>
+    <string name="word_pdf">Word para PDF</string>
+    <string name="pdf_ppt">PDF para PowerPoint</string>
+    <string name="ppt_pdf">PowerPoint para PDF</string>
+    <string name="juntar_pdf">Juntar PDFs</string>
+
+    <!--Butões-->
+    <string name="btn1">PDF TO WORD</string>
+    <string name="btn2">WORD TO PDF</string>
+    <string name="btn3">PDF TO PPT</string>
+    <string name="btn4">PPT TO PDF</string>
+    <string name="btn5">Unir PDFs</string>
+</resources>

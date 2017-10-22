@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout"
+    android:layout_gravity="center_vertical"
+    tools:context="conversortextos.diegodev.com.br.conversortextos.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/home_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pdf_word"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <Button
+        android:id="@+id/btnPDFWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:background="@color/colorbtn"
+        android:textColor="@color/textColorbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/word_pdf"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <Button
+        android:id="@+id/btnWordPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:background="@color/colorbtn"
+        android:textColor="@color/textColorbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pdf_ppt"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <Button
+        android:id="@+id/btnPDFPowerPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        android:background="@color/colorbtn"
+        android:textColor="@color/textColorbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ppt_pdf"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <Button
+        android:id="@+id/btnPowerPointPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4"
+        android:background="@color/colorbtn"
+        android:textColor="@color/textColorbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/juntar_pdf"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+    <Button
+        android:id="@+id/juntatPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn5"
+        android:background="@color/colorbtn"
+        android:textColor="@color/textColorbtn"/>
+
+
+</LinearLayout>
